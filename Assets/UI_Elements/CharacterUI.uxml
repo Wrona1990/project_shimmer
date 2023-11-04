@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement name="Canvas" style="flex-grow: 1; flex-basis: auto;">
+        <ui:VisualElement name="BottomPart" style="flex-grow: 0; height: 200px; align-items: stretch; flex-direction: row; bottom: auto; flex-wrap: wrap-reverse; align-self: center; justify-content: space-around; flex-basis: 200px; top: 85%; padding-right: 15%; padding-left: 15%; background-color: rgba(0, 0, 0, 0.2); -unity-background-image-tint-color: rgb(255, 255, 255); padding-top: 0; padding-bottom: 0; margin-right: 0; margin-top: 0;">
+            <ui:Button text="Button" parse-escape-sequences="true" display-tooltip-when-elided="true" style="transform-origin: center; align-items: center; justify-content: center; align-self: center; left: 10%; position: absolute; height: 100px; width: 100px;" />
+            <ui:Button text="Button" parse-escape-sequences="true" display-tooltip-when-elided="true" style="transform-origin: center; align-items: center; justify-content: center; align-self: center; left: 150%; position: absolute; height: 100px; width: 100px;" />
+            <ui:ProgressBar value="22" title="my-progress" style="align-items: auto; align-self: center; flex-direction: column; justify-content: flex-end; position: relative;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
